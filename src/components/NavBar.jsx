@@ -8,9 +8,9 @@ function NavBar() {
             <p>the right path for you.</p>
         </div>
         <div className="paths">
-            <Link to='/'>Home</Link>
-            <Link to='/join'>Join now!</Link>
-            <Link to='/about'>About us</Link>
+            <Link className="link" to='/'>Home</Link>
+            <Link className="link" to='/join'>Join now!</Link>
+            <Link className="link" to='/about'>About us</Link>
         </div>
     </div>
    )
